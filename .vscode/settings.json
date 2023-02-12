@@ -30,5 +30,8 @@
   "go.useLanguageServer": true,
   "go.buildOnSave": "off",
   "go.lintOnSave": "off",
-  "go.vetOnSave": "off"
+  "go.vetOnSave": "off",
+  "java.project.sourcePaths": [
+    "fib/src/main/java"
+  ]
 }

@@ -9,6 +9,7 @@ go_library(
         # use generated dependency from //external_dependencies
         "@com_github_dlshle_gommon//async",
         "//calculator/calc",
+        "//proto/test:test_message_go_proto"
     ],
 )
 

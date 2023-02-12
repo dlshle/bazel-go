@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package go.bazel.proto;
+
+message Event {
+    string id = 1;
+    string payload = 2;
+}

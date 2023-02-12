@@ -7,5 +7,6 @@ go_library(
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_dlshle_gommon//async",
+        "//proto/test:test_message_go_proto"
     ],
 )
